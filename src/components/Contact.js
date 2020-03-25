@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/Resume.pdf";
 
 function Contact(){
     return (
@@ -21,7 +22,7 @@ function Contact(){
                   <p><b>Email - </b>brayden@deloach.us</p>
                   <p><b>Github - </b><a href="https://github.com/deloabra">https://github.com/deloabra</a></p>
                   <p><b>LinkedIn - </b><a href="https://www.linkedin.com/in/brayden-deloach-666746172/">https://www.linkedin.com/in/brayden-deloach-666746172/</a></p>
-                  <p><b>Resume - </b><a href="assets/Resume.pdf">Resume</a></p>
+                  <p><b>Resume - </b><a href={resume}>Resume</a></p>
             </div>
   
           </div>
